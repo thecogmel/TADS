@@ -2,7 +2,7 @@
 
 int main (){
     //comentário de linha
-
+    std::cout.precision(2);
     /* comentário
     de
     bloco*/
@@ -22,6 +22,7 @@ int main (){
     //TEST
     if (Z>0 and N>0 and Z>Y and Y>=0) {
         custoCaneta = (Z-Y)/N;
+        std::cout << std::fixed;
         std::cout << "Custo da Caneta:" << custoCaneta;
     } else std::cout << "algum valor invalido";
 

@@ -26,4 +26,4 @@ int main (){
         std::cout << "Custo da Caneta:" << custoCaneta;
     } else std::cout << "algum valor invalido";
 
-} //
+}

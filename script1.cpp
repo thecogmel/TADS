@@ -13,17 +13,16 @@ int main (){
 
     //READ and Write
     std::cout << "N: ";
+    std::cin >> N;
     std::cout << "Z: ";
+    std::cin >> Z;
     std::cout << "Y: ";
-    std::cin >> N >> Z >> Y;
+    std::cin >> Y;
 
     //TEST
     if (Z>0 and N>0 and Z>Y and Y>=0) {
         custoCaneta = (Z-Y)/N;
         std::cout << "Custo da Caneta:" << custoCaneta;
     } else std::cout << "algum valor invalido";
-
-    
-    
 
 }

@@ -8,3 +8,5 @@ absolute
 ES6/bundle.js
 
 ES6/package.json
+
+*.lock

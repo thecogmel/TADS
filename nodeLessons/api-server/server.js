@@ -1,9 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const requireDir = require('require-dir');
+const requireDir = require('require-dir'); //  require todos os models da pasta
 
 //Iniciando o App
 const app = express();
+app.use(express.json());
 
 //Iniciando o DB
 mongoose.connect('mongodb+srv://erick:erick@api-clusters-0sqru.mongodb.net/API?retryWrites=true&w=majority',{
@@ -12,21 +13,8 @@ mongoose.connect('mongodb+srv://erick:erick@api-clusters-0sqru.mongodb.net/API?r
 });
 requireDir('./src/models')
 
-const Product = mongoose.model('Product');
-const exemplo = mongoose.model('exemplo')
+//rotas
 
-//Primeira rota
-app.get('/', (req, res) => {
-    Product.create({ 
-        title: 'React Native',
-        description: 'Build native apps with React',
-        url: 'http://github.com/facebook/react-native'
-    }),
-    exemplo.create({ 
-        nome: 'Juliana',
-        descricao: 'adiciono uma descricao qualquer',
-        url: 'a url do teu insta por exemplo'
-    })
-});
+app.use('/api', require ("./src/routes"));
 
 app.listen(3001);

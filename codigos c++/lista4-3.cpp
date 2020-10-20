@@ -5,20 +5,15 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     string str;
-    int i,j;
-
+    char vetAlfa[26] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
+    'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+    
     getline(cin,str);
-    cin >> i;
-    cin >> j;
-    int dif = i-j; 
-    if (dif < 0)
+    for (size_t i = 0; i < str.length(); i++)
     {
-        dif = dif*-1;
+        
     }
     
-    cout << dif << endl;
-    string str2 = str.substr (i, dif);
-    cout << str2 << endl;
 
     return 0;
 }

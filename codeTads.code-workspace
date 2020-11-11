@@ -50,7 +50,8 @@
 			"typeinfo": "cpp",
 			"optional": "cpp",
 			"string_view": "cpp",
-			"bit": "cpp"
+			"bit": "cpp",
+			"cstring": "cpp"
 		}
 	}
 }

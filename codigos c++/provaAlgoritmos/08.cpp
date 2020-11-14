@@ -58,6 +58,18 @@ int main(int argc, char const *argv[])
     int t1, t2, t3;
     cin >> t1 >> t2 >> t3;
 
-    time(t1, t2, t3);
+    if (t1 != t2) 
+    {    
+        if (t1 != t3)
+        {
+            if (t2 != t3)
+            {
+                if (1 <= t1 <= 1000 and 1 <= t2 <= 1000 and 1 <= t2 <= 1000 )
+                {
+                    time(t1, t2, t3);       
+                }
+            }   
+        }
+    }    
     return 0;
 }

@@ -31,7 +31,22 @@ int main(int argc, char const *argv[])
     int M, A, B;
     cin >> M >> A >> B;
 
-    cout << idade(M, A, B);
-
+    //restrições e chamada da função
+    if (40 <= M <= 110)
+    {
+        if (1 <= A <= M)
+        {
+            if (1 <= B <= M)
+            {
+                if (A != B)
+                {
+                    cout << idade (M, A, B);
+                }
+                
+            }
+            
+        }
+        
+    }
     return 0;
 }

@@ -6,8 +6,9 @@ int idade (int M, int A, int B){
     int result, C, aux;
      
     aux = A + B;
-    C = M - aux;
+    C = M - aux; //diferença descobre a idade do irmão C
 
+    //if's comparam e vê qual é o maior
     if (A > B && A > C)
     {
         return A;

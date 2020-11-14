@@ -6,17 +6,17 @@ int km(int tabela[6][6], int rota[2][6])
 
     int linha, coluna, result = 0, l, c;
 
-    for (coluna = 0; coluna < 6; coluna++)
+    for (coluna = 0; coluna < 6; coluna++) //for com valores invertidos para ler coluna/linha
     {   
         for (linha = 0; linha < 2; linha++)
         {
             if (linha == 0)
             {
-                l = rota[linha][coluna];
+                l = rota[linha][coluna]; //se na primeira posição, apenas atribui a linha
             }
             if (linha == 1)
             {
-                c = rota[linha][coluna];
+                c = rota[linha][coluna]; // se na segunda atribui a coluna e faz o cálculo da rota
                 result = result + tabela[l-1][c-1];
             }
         }

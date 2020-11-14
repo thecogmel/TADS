@@ -8,7 +8,7 @@ int time(int t1, int t2, int t3)
     // condicionais abaixo para saber qual o menor tempo
     // e associando as medalhas
 
-    if (t1 < t2 && t2 < t3)
+    if (t1 < t2 && t2 < t3) //estrutura do if: se T1 fo menor que t2 e t2 menor que t3 assumimos qual é o menor; 
     {
         ouro = 1;
         prata = 2;

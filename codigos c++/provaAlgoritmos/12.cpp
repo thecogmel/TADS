@@ -5,13 +5,17 @@ int trapezio(int B, int b)
 {
     int difB, difb, base = 160;
     float area1, area2;
+    //B = base maior, b = base menor
 
+    //área da diferença para ser comparada a área colocada
     difB = base - B;
     difb = base - b;
 
     area1 = 70*(B+b)/2;
     area2 = 70*(difB+difb)/2;
     
+    
+    //comparativo entre as áreas
     if (area1 > area2)
     {
         cout << 1;

@@ -3,51 +3,51 @@ using namespace std;
 
 int time(int t1, int t2, int t3)
 {
-    int ouro, prata, bronze;
+    int atleta1, atleta2, atleta3;
 
     // condicionais abaixo para saber qual o menor tempo
     // e associando as medalhas
 
     if (t1 < t2 && t2 < t3) //estrutura do if: se T1 fo menor que t2 e t2 menor que t3 assumimos qual é o menor; 
     {
-        ouro = 1;
-        prata = 2;
-        bronze = 3;
+        atleta1 = 1;
+        atleta2 = 2;
+        atleta3 = 3;
     }
     if (t1 < t3 && t3 < t2)
     {
-        ouro = 1;
-        prata = 3;
-        bronze = 2;
+        atleta1 = 1;
+        atleta2 = 3;
+        atleta3 = 2;
     }
     if (t2 < t1 && t1 < t3)
     {
-        ouro = 2;
-        prata = 1;
-        bronze = 3;
+        atleta1 = 2;
+        atleta2 = 1;
+        atleta3 = 3;
     }
     if (t2 < t3 && t3 < t1)
     {
-        ouro = 2;
-        prata = 3;
-        bronze = 1;
+        atleta1 = 2;
+        atleta2 = 3;
+        atleta3 = 1;
     }
     if (t3 < t1 && t1 < t2)
     {
-        ouro = 3;
-        prata = 1;
-        bronze = 2;
+        atleta1 = 3;
+        atleta2 = 1;
+        atleta3 = 2;
     }
     if (t3 < t2 && t2 < t1)
     {
-        ouro = 3;
-        prata = 2;
-        bronze = 1;
+        atleta1 = 3;
+        atleta2 = 2;
+        atleta3 = 1;
     }
 
-    cout << ouro << endl;
-    cout << prata << endl;
-    cout << bronze << endl;
+    cout << atleta1 << endl;
+    cout << atleta2 << endl;
+    cout << atleta3 << endl;
 
 
     return 0;

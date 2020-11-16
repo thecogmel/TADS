@@ -3,7 +3,7 @@ using namespace std;
 
 int idade (int M, int A, int B){
 
-    int result, C, aux;
+    int C, aux;
      
     aux = A + B;
     C = M - aux; //diferença descobre a idade do irmão C
@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
             {
                 if (A != B)
                 {
-                    cout << idade (M, A, B);
+                    cout << idade(M, A, B);
                 }
                 
             }

@@ -1,0 +1,25 @@
+ID 1 - Nome: Erick Medeiros - Setor: Suporte Tecnico
+ID 2 - Nome: Jhonny Adam - Setor: Suporte Tecnico
+ID 3 - Nome: Matheus Arroz - Setor: Atendimento
+ID 4 - Nome: Higor Leandro - Setor: Financeiro
+ID 5 - Nome: Rafael Lima - Setor: Vendas
+ID 6 - Nome: Cesar Filho - Setor: Financeiro
+ID 7 - Nome: Daniela Ferraz - Setor: Gerencia
+ID 8 - Nome: Luciana Fernandes - Setor: Vendas
+ID 9 - Nome: Adam Smith - Setor: Financeiro
+ID 10 - Nome: Victor Fernandes - Setor: Vendas
+
+
+Setor 0:   Atendimento
+
+
+Setor 1:   Gerencia
+
+
+Setor 2:   Suporte Tecnico
+
+
+Setor 3:   Financeiro
+
+
+Setor 4:   Vendas

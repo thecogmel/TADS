@@ -1,0 +1,47 @@
+body {
+  background-color: #E8E9E3;
+  margin: 0;
+  padding: 0;
+}
+.link-top{
+  font-size: 1vw;
+}
+
+.tads-logo {
+  display: flex;
+}
+.nomeCurso {
+  color: #4D5D9C;
+  font-size: min(2.5vw, 1rem);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  line-height: 1rem;
+}
+
+.nomeCursoAux {
+  color: black;
+  font-size: min(2.0vw, 0.813rem);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 0.813rem;
+}
+
+.phone {
+  color: #4D5D9C;
+  font-style: italic;
+}
+
+@media (max-width: 576px) {
+  .link-top {
+    font-size: 3vw;
+  }
+  .margem-0{
+    margin: 0;
+  }
+  .tads-logo {
+    display: flex;
+    width: 40%;
+    height: 15vh;
+  }
+}

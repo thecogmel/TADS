@@ -32,6 +32,24 @@ body {
   font-style: italic;
 }
 
+.cover {
+  object-fit: cover;
+  height: 40vh;
+}
+
+.justificar {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main > p, li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+main > h4, h5 {
+  color: #4D5D9C;
+}
+
 @media (max-width: 576px) {
   .link-top {
     font-size: 3vw;

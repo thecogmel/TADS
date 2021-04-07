@@ -1,0 +1,9 @@
+.coding {
+  background-image: url(./assets/programacao.jpg);
+  object-fit: cover;
+}
+@media (max-width: 767.98px)  {
+  .coding {
+    height: 300px;
+  }
+}
